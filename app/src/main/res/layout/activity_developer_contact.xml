@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".DeveloperContact">
+
+
+    <ImageView
+        android:id="@+id/github"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/github"
+        android:maxWidth="35dp"
+        android:maxHeight="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Tgithub"
+        app:srcCompat="@drawable/github" />
+
+    <ImageView
+        android:id="@+id/whatsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/whatsapp"
+        android:maxWidth="35dp"
+        android:maxHeight="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Twhatsapp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/github"
+        app:srcCompat="@drawable/whatsapp" />
+
+    <ImageView
+        android:id="@+id/hackerrank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="24dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/hackerrank"
+        android:maxWidth="35dp"
+        android:maxHeight="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Thackerrank"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/whatsapp"
+        app:srcCompat="@drawable/hackerrank" />
+
+    <ImageView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="24dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/email"
+        android:maxWidth="35dp"
+        android:maxHeight="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Temail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hackerrank"
+        app:srcCompat="@drawable/email" />
+
+    <TextView
+        android:id="@+id/Tgithub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="216dp"
+        android:text="@string/github"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toEndOf="@+id/github"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Twhatsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/whatsapp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toEndOf="@+id/whatsapp"
+        app:layout_constraintTop_toBottomOf="@+id/Tgithub" />
+
+    <TextView
+        android:id="@+id/Thackerrank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/hackerrank"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/hackerrank"
+        app:layout_constraintTop_toBottomOf="@+id/Twhatsapp" />
+
+    <TextView
+        android:id="@+id/Temail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/email"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/email"
+        app:layout_constraintTop_toBottomOf="@+id/Thackerrank" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

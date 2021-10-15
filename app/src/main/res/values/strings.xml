@@ -1,0 +1,490 @@
+<resources>
+    <string name="app_name">Daily Quotes</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_rate">Developer Contact</string>
+    <string name="action_share">Share</string>
+    <string name="action_download">Download</string>
+    <string name="action_copy">Copy to Clipboard</string>
+    <string name="action_about">About</string>
+
+    <string name="content_text">Text goes here</string>
+    <string name="content_share">This is share icon</string>
+    <string name="content_download">This is download icon</string>
+    <string name="content_copy">This is copy icon</string>
+    <string name="share_app">Share app</string>
+
+    <string name="first_fragment_label">Thought of the Day</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="team_dsc_rec_bijnor">DSC REC BIJNOR</string>
+    <string name="splash_image">splash image</string>
+    <string name="Name_mail">Pranjal Singh</string>
+
+
+   <string name="about">If you wake up in the morning and lie in bed, you have a goal to achieve. There is something stopping you from giving your best. Taking out the best version from you, You just need a little motivation for this Here we are. In this app, you get a new idea, a new thought every day, which will help you jump-start your day. The idea behind this app is to provide single but perfect thought every day by which you will stay inspired, focused, and calm. Always remember\n\n\"KNOWING IS NOT ENOUGH\nYOU MUST APPLY\nWILLING IS NOT ENOUGH\nYOU MUST DO\"\n\-Bruce Lee</string>
+
+    <string name="github">Github</string>
+    <string name="whatsapp">whatsapp</string>
+    <string name="hackerrank">hackerrank</string>
+    <string name="email">email</string>
+
+    <string-array name="june">
+
+        <item>Happiness is having a large, loving, caring, close\-knit family in another city.</item>
+
+        <item>Twenty years from now you will be more disappointed by the things that you didn\'t do than by the ones you did do. So, throw off the bowlines, sail away from safe harbor, catch the trade winds in your sails. Explore, Dream, Discover.</item>
+
+        <item>Try not to become a man of success. Rather become a man of value.</item>
+
+        <item>What can you do to promote world peace? Go home and love your family.</item>
+
+        <item>A successful man is one who can lay a firm foundation with the bricks others have thrown at him.</item>
+
+        <item>People are in our life for a reason, season or lifetime. The pain comes when we put them in the wrong category.</item>
+
+        <item>Life is trying things to see if they work.</item>
+
+        <item>The way to get started is to quit talking and begin doing.</item>
+
+        <item>Families are like fudge \— mostly sweet, with a few nuts.</item>
+
+        <item>First, have a definite, clear practical ideal, a goal, an objective. Second, have the necessary means to achieve your ends; wisdom, money, materials, and methods. Third, adjust all your means to that end.</item>
+
+        <item>Dream big and dare to fail.</item>
+
+        <item>Every day is a good day. There is something to learn, care and celebrate.</item>
+
+        <item>Which is the true nightmare, the horrific dream that you have in your sleep or the dissatisfied reality that awaits you when you awake\?</item>
+
+        <item>Respect people\'s time if you want your time to be respected.</item>
+
+        <item>I have learned over the years that when one\'s mind is made up, this diminishes fear.</item>
+
+        <item>Family love is messy, clinging and of an annoying and repetitive pattern, like bad wallpaper.</item>
+
+        <item>Change the game, don\’t let the game change you.</item>
+
+        <item>There is no substitute for hard work.</item>
+
+        <item>I\'ve learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.</item>
+
+        <item>The only place where success comes before work is in the dictionary.</item>
+
+        <item>A best friend is someone who has the power to make you laugh  hysterically even when you think you will never smile again.</item>
+
+        <item>If you genuinely want something, don\'t wait for it \— teach yourself to be impatient.</item>
+
+        <item>Never dream for success, work for it.</item>
+
+        <item>Success seems to be connected with action. Successful people keep moving. They make mistakes but they don\'t quit.</item>
+
+        <item>No one notices your sadness until it turns into anger, and then you\'re the bad person.</item>
+
+        <item>The secret of success is to do the common thing uncommonly well.</item>
+
+        <item>Don\'t judge each day by the harvest you reap but by the seeds that you plant.</item>
+
+        <item>If you set your goals ridiculously high and it\'s a failure, you will fail above everyone else\'s success.</item>
+
+        <item>Your time is limited, so don\'t waste it living someone else\'s life. Don\'t be trapped by dogma \– which is living with the results of other people\'s thinking.</item>
+
+        <item>The greatest glory in living lies not in never falling, but in rising every time we fall.</item>
+
+    </string-array>
+
+    <string-array name="july">
+
+        <item>It\’s not whether you get knocked down, it\’s whether you get back up.</item>
+
+        <item>Leadership is the ability to get extraordinary achievement from ordinary people.</item>
+
+        <item>Leaders are anticipatory thinkers. They consider all consequences of their behaviors before they act.</item>
+
+        <item>You get the best version of me when I feel safe around you.</item>
+
+        <item>Leaders think and talk about the solutions. Followers think and talk about the problems.</item>
+
+        <item>The only way to do great work is to love what you do. If you haven\’t found it yet, keep looking. Don\’t settle.</item>
+
+        <item>I think goals should never be easy, they should force you to work, even if they are uncomfortable at the time.</item>
+
+        <item>Entrepreneurs are great at dealing with uncertainty and also very good at minimizing risk. That\’s the classic entrepreneur.</item>
+
+        <item>You learn more from failure than from success. Don\’t let it stop you. Failure builds character.</item>
+
+        <item>Happiness is not by chance, but by choice.</item>
+
+        <item>Move out of your comfort zone. You can only grow if you are willing to feel awkward and uncomfortable when you try something new.</item>
+
+        <item>Knowledge when to leave is important,\n\nThe job, The party, The relation.</item>
+
+        <item>So often people are working hard at the wrong thing. Working on the right thing is probably more important than working hard.</item>
+
+        <item>Have a dream, chase it down, jump over every single hurdle, and run through fire and ice to get there.</item>
+
+        <item>Spend time thinking about what matters to you and what you find to be meaningful. Invest in those things. It\’s wonderful when you can live your life in accordance with your own values rather than what other people tell you should want. Leave everything else behind because it really doesn\’t matter if it doesn\’t bring you joy.</item>
+
+        <item>In order to succeed, you can\’t be afraid to fail. Just do it and don\’t let anybody tell you can\’t.</item>
+
+        <item>Half the stuff you\'re stressing over isn\'t even worth it.</item>
+
+        <item>I work really hard at trying to see the big picture and not getting stuck in ego. I believe we\’re all put on this planet for a purpose, and we all have a different purpose. When you connect with that love and that compassion, that\’s when everything unfolds.</item>
+
+        <item>On my own I will just create, and if it works, it works, and if it doesn\’t, I\’ll create something else. I don\’t have any limitations on what I think I could do or be.</item>
+
+        <item>If you want to be a successful in this world, you have to follow your passion, not a paycheck.</item>
+
+        <item>Nothing hurts more than being disappointed by the only person you thought would never hurt you.</item>
+
+        <item>Sometimes black clouds make that blue sky more beautiful.</item>
+
+        <item>You can\’t go back and make a new start, but you can start right now and make a brand new ending.</item>
+
+        <item>Actually spending ten minutes clearing off one shelf is better than fantasizing about spending a weekend cleaning out the basement.</item>
+
+        <item>Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning.</item>
+
+        <item>When everything seems to be going against you, remember that the aeroplane takes off against the wind, not with it.</item>
+
+        <item>You can\’t stop the waves, but you can learn to surf.</item>
+
+        <item>When you walk through a storm hold your head up high, and don\’t be afraid of the dark,At the end of the storm is a golden sky, and the sweet silver song of a lark.</item>
+
+        <item>Rule number one\: Don\’t sweat the small stuff. Rule number two\: It\’s all small stuff.</item>
+
+        <item>You don\’t have to control your thoughts, you just have to stop letting them control you.</item>
+
+        <item>Your mind will answer most questions if you learn to relax and wait for the answer.</item>
+
+    </string-array>
+
+    <string-array name="august">
+        <item>Life is ten percent what happens to you and ninety percent how you respond to it.</item>
+
+        <item>If you live long enough, you\’ll make mistakes. But if you learn from them, you\’ll be a better person.</item>
+
+        <item>Don\’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.</item>
+
+        <item>The best way to predict your future is to create it.</item>
+
+        <item>If it\'s destroying you, then it isn\'t love, my dear.</item>
+
+        <item>All life is an experiment. The more experiments you make, the better.</item>
+
+        <item>Throughout life people will make you mad, disrespect you and treat you bad. Let God deal with the things they do, cause hate in your heart will consume you too.</item>
+
+        <item>Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.</item>
+
+        <item>Life is a dream for the wise, a game for the fool, a comedy for the rich, a tragedy for the poor.</item>
+
+        <item>When one door closes, another opens, but we often look so long and so regretfully upon the closed door that we do not see the one that has opened for us.</item>
+
+        <item>Don\’t be afraid to fail. It\’s not the end of the world, and in many ways, it\’s the first step toward learning something and getting better at it.</item>
+
+        <item>Life is very interesting… in the end, some of your greatest pains, become your greatest strengths.</item>
+
+        <item>A lot of people give up just before they\’re about to make it. You know you never know when that next obstacle is going to be the last one.</item>
+
+        <item>Stay away from people who always try to make you feel like everything is your fault.</item>
+
+        <item>I believe you make your day. You make your life. So much of it is all perception, and this is the form that I built for myself. I have to accept it and work within those compounds, and it\’s up to me.</item>
+
+        <item>Take up one idea. Make that one idea your life \— think of it, dream of it, live on that idea. Let the brain, muscles, nerves, every part of your body be full of that idea, and just leave every other idea alone. This is the way to success.</item>
+
+        <item>There are three things you can do with your life\: You can waste it, you can spend it, or you can invest it. The best use of your life is to invest it in something that will last longer than your time on Earth.</item>
+
+        <item>Once you figure out who you are and what you love about yourself, I think it all kinda falls into place.</item>
+
+        <item>just disconnect. Once in a day sometime, sit silently and from all connections disconnect yourself.</item>
+
+        <item>You cannot control everything that happens to you, you can only control the way you respond to what happens. In your response is your power.</item>
+
+        <item>Always Remember\-\n\-No response is a response.\n\-Taking no risk is the biggest risk.\n\-If they really wanted to, they would\n\-If you\'re happy alone, you\'ll be happier together\n\-Changed behaviour is the only real apology.</item>
+
+        <item>Good judgment comes from experience, and experience comes from bad judgment.</item>
+
+        <item>Yesterday\'s the past, tomorrow\'s the future, but today is a gift. That\'s why it\'s called the present.</item>
+
+        <item>Prepare for the worst, and hope for the best.</item>
+
+        <item>You only live once, but if you do it right, once is enough.</item>
+
+        <item>Money and success don\’t change people, they merely amplify what is already there.</item>
+
+        <item>Many of life\’s failures are people who did not realize how close they were to success when they gave up.</item>
+
+        <item>Sing like no one\’s listening,\nlove like you\’ve never been hurt,\ndance like nobody\’s watching,\nand live like it\’s heaven on earth.</item>
+
+        <item>Life is not a problem to be solved, but a reality to be experienced.</item>
+
+        <item>Life is really simple, but people insist on making it complicated.</item>
+
+        <item>Perfection is not attainable, but if you chase perfection you can catch excellence.</item>
+
+    </string-array>
+
+    <string-array name="september">
+        <item>Treating the other person as you would like to be treated is the golden rule.</item>
+
+        <item>Success is peace of mind, which is a direct result of self\-satisfaction in knowing you made the effort to become the best of which you are capable.</item>
+
+        <item>Follow your dreams, work hard, practice and persevere. Make sure you eat a variety of foods, get plenty of exercise and maintain a healthy lifestyle.</item>
+
+        <item>Everyone has a talent, ability, or skill that he can mine to support himself and to succeed in life.</item>
+
+        <item>Be miserable. Or motivate yourself, Whatever has to be done, It\'s always your choice.</item>
+
+        <item>Never complain and never explain.</item>
+
+        <item>No matter how many goals you have achieved, You must set your sights on a higher one.</item>
+
+        <item>The hardships that I encountered in the past will help me succeed in the future.</item>
+
+        <item>When you fail you learn from the mistakes you made and it motivates you to work even harder.</item>
+
+        <item>Remove expectation from people and you\'ll remove their power to hurt your feelings.</item>
+
+        <item>Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.</item>
+
+        <item>Set your sights high, the higher the better. Expect the most wonderful things to happen, not in the future but right now. Realize that nothing is too good. Allow absolutely nothing to hamper you or hold you up in any way.</item>
+
+        <item>Seek always for the answer within. Be not influenced by those around you, by their thoughts or their words.</item>
+
+        <item>The woods are lovely, dark and deep. But I have promises to keep, and miles to go before I sleep.</item>
+
+        <item>If you believe in yourself and have dedication and pride \- and never quit, you\'ll be a winner. The price of victory is high but so are the rewards.</item>
+
+        <item>The best preparation for tomorrow is doing your best today.</item>
+
+        <item>If you hear a bad story about me, understand, there was a time I was good to those people but they won\'t tell you that.</item>
+
+        <item>I can\'t change the direction of the wind, but I can adjust my sails to always reach my destination.</item>
+
+        <item>If opportunity doesn\'t knock, build a door.</item>
+
+        <item>Start by doing what\'s necessary, then do what\'s possible, and suddenly you are doing the impossible.</item>
+
+        <item>You can\'t skip chapters, that\'s not how life works. You have to read every line, meet every character. You won\'t enjoy all of it. Hell, some chapters will make you cry for weeks. You will read things you don\'t want to read, you will have moments when you don\'t want the pages to end. But you have to keep going. Stories keep world revolving. Live yours, don\'t miss out. </item>
+
+        <item>Life is too short to wake up in the morning with regrets, \nSo, love the people who treat you right and forget about the ones who don\'t.\nAnd believe that everything happens for a reason.</item>
+
+        <item>When Someone says \"You\'ve changed\"\nIt simply means you\'ve stopped living your life their way.\nAnd it was the best decision you made.</item>
+
+        <item>If you get a chance\-take it,\nif it changes your life\-let it.\nNobody said that it would be easy.\nThey just promised it would be worth it.</item>
+
+        <item>Success is not the key of Happiness,\nHappiness is the key of Success.\nIf you love what you are Doing,\nYou will be successful.</item>
+
+        <item>If you\'re afraid to talk to your friends about your mental health, you are friends with the wrong people.</item>
+
+        <item>When a meaningless argument is started with someone then you should just shut your mouth and walk away, It doesn\'t mean you\'ve lost the argument, It simply means that person don\'t worth your time anymore.</item>
+
+        <item>Stop stressing.\nEverything is going to be okay.\nJust let it go.\nTrust people around you coz it\'s going to help you a lot.</item>
+
+        <item>GOD is never blind to your tears, never deaf to your prayers, and never silent to your pain.\nHe Sees, He Hears, and He will Deliver....Just wait</item>
+
+        <item>Always, end the day with a positive thought. No matter how hard things were. Tomorrow is a fresh opportunity to make it better.Magnify your efforts day by day and soon you will get what you want.</item>
+
+        <item>Throughout life people will make you mad, disrespect you and treat you bad. Let God deal with the things they do, cause hate in your heart will consume you too.</item>
+
+    </string-array>
+
+    <string-array name="october">
+        <item>You have become so damaged, That when someone wants to give you what you deserve, You have no idea how to respond.</item>
+
+        <item>The only time you fail is when you fall down and stay down.</item>
+
+        <item>Virtually nothing is impossible in this world if you just put your mind to it and maintain a positive attitude.</item>
+
+        <item>The sun himself is weak when he first rises, and gathers strength and courage as the day gets on.</item>
+
+        <item>Nothing is worst than missing an opportunity that could have changed your life.</item>
+
+        <item>Spend some time with your elders,You can\'t find everything on google.</item>
+
+        <item>Don\'t promise when you are happy, Don\'t reply when you\'re angry and Don\'t decide when you are sad.</item>
+
+        <item>Your mind is a weapon, keep it loaded.</item>
+
+        <item>Don\'t feel sad if someone rejects you,\nPeople usually avoid expensive things and go for cheaper ones.</item>
+
+        <item>Three things to keep private \-Your income, Your Love Life and Your next move.</item>
+
+        <item>Weak people seek revenge,\nStrong people forgive,\nIntelligent people ignore.</item>
+
+        <item>Poor Dad often said \"INVESTING IS RISKY\".\nRich dad said\"FINANCIALLY UNEDUCATED IS RISKY.</item>
+
+        <item>When GOD gives you a new beginning, Don\'t repeat same mistakes.</item>
+
+        <item>Don\'t burn your opportunities for a temporary comfort.</item>
+
+        <item>One can\'t stop a winner from winning, and a loser from losing.</item>
+
+        <item>Life is precious thing, you never know when you\'re going to lose it.\nLive life while you can , because you never know which second is going to be your last.</item>
+
+        <item>Whenever you feel Bad, Just Remember that coca\-cola sold only 25 bottles in the first year..So never give up.</item>
+
+        <item>It takes ten years for an overnight success.</item>
+
+        <item>Be careful, Not everyone is loyal.</item>
+
+        <item>Some people will hate you not because right, But Because you are different.</item>
+
+        <item>Success is not always what you see.</item>
+
+        <item>Quite people are actually talkative around people.</item>
+
+        <item>Calm, But Alert\nRelaxed, But Ready\nSmooth, But Sharp.</item>
+
+        <item>Life is a small gap between Birth and Death, So in this gap be happy and\nTry to make others happy..\nEnjoy every moment of life.</item>
+
+        <item>Sometimes, What you have is Dream for others.</item>
+
+        <item>You have to stop saying I wish, and Start saying I will.</item>
+
+        <item>Action is foundational key to all success.</item>
+
+        <item>Do more things that make you forget to check your phone.</item>
+
+        <item>You may not be saying anything new, But Nobody can ever say just like you.</item>
+
+        <item>When you throw dirt you will loose ground.</item>
+
+        <item>If you woke up late in night and gone to sleep again. It means you are not working on something extra ordinary.</item>
+
+        <item>Life is like a book.\nSome chapters sad,Some happy and Some exciting.\nBut if you never turn the page, You will never know what the next chapter holds.</item>
+
+    </string-array>
+
+    <string-array name="november">
+        <item>To succeed in life,\nYou need two things\:\nIgnorance And Confidence.</item>
+
+        <item>Don\'t wait for the perfect moment, Take the moment And make it perfect.</item>
+
+        <item>A person who never made a mistake never tried anything new\!\!</item>
+
+        <item>Don\'t take rest after your first victory because if you fail in second,\nMore lips are waiting to say that your first victory was just luck.</item>
+
+        <item>Learning has no age limit.\nEveryday is another chance,another great day for learning invest your energy so that you may progress towards your goal.\nLEARN SOMETHING NEW EVERYDAY.</item>
+
+        <item>Every morning you have two choices \: continue to sleep with your dreams, Or wake up and chase them.</item>
+
+        <item>If you can\'t fly,then run\nIf you can\'t run, then walk,\nIf you can\'t walk, then crawl,\n but whatever you do,\n you have to keep moving forward.</item>
+
+        <item>Success isn\'t always about greatness,Its about consistency.\nConsistent hard work gains success. Greatness will come.</item>
+
+        <item>You have to fight through some bad days to earn the best days of your life.</item>
+
+        <item>Winners don\'t do different things,\nThey do things differently.</item>
+
+        <item>By condemning others no one found anything,\nOne who rectifies himself day by day, he gets everything.</item>
+
+        <item>Patience is not the ability to wait, but he ability to keep good attitude while waiting.</item>
+
+        <item>Progress is impossible without change, and those who can\'t change their minds can\'t change anything.</item>
+
+        <item>Avoid negative people, for they are greatest destroyers of self confidence and self esteem. Surround yourself with people who bring out the best in you.</item>
+
+        <item>A goal is not always meant to be reached, It often serves simply as something to aim at.</item>
+
+        <item>If you want to make a permanent change, stop focusing on the size of your problems and start focusing on the size of you\!</item>
+
+        <item>Take a step back to take a leaps forward \-Shubham</item>
+
+        <item>When you feel down, Just remember why you started.</item>
+
+        <item>You have changed a lot, No, a lot has changed me.</item>
+
+        <item>If you knew what was said in your absence, You\'d stop smiling with a lot of people.</item>
+
+        <item>If you are going through hell, keep going.</item>
+
+        <item>The first step toward success is taken when you refuse to be captive of the environment in which you first find yourself.</item>
+
+        <item>The will to success is important,\nBut what\'s more important is the will to prepare.</item>
+
+        <item>Decide what you want, Decide what you are willing to exchange for it, Establish your priorities and go for work.</item>
+
+        <item>You just can\'t beat the person who never gives up.</item>
+
+        <item>Not everyone likes me, But not everyone matters.</item>
+
+        <item>Don\'t watch the clock, Do what it does.\nKeep going.</item>
+
+        <item>Kill tension before tension kills you.\nReach your goal before goal kicks you.\nLive life before Life leaves you.</item>
+
+        <item>Start where you are,\nUse what you have,\nDo what you can.</item>
+
+        <item>Ever tried, Ever failed. No matter, Try again, Fail again, Fail better.</item>
+
+        <item>Life is a small gap between Birth and Death, So in this gap be happy and\nTry to make others happy..\nEnjoy every moment of life.</item>
+
+
+    </string-array>
+
+    <string-array name="december">
+        <item>Action speak louder than words\: Let your words teach and your actions speak.</item>
+
+        <item>Things may come to those who wait, But only the things left by those who hustle.</item>
+
+        <item>Don\'t burn your opportunities for a temporary comfort.</item>
+
+        <item>A creative person is motivated by the desire to achieve, not by the desire to beat others.</item>
+
+        <item>Negative thoughts are out to destroy you, so you must be merciless in dealing with them.</item>
+
+        <item>If you\'ve power to eat alone in a restaurant or sit alone in a cinema hall, then you can do anything in your life.</item>
+
+        <item>Courage doesn\'t always roar, Sometimes courage is the quit voice at the end of the day saying, \"I will try again tomorrow.\"</item>
+
+        <item>Strength does not come from winning, Your struggles develop your strengths, When you go through hardships and decide not to surrender, That is strength.</item>
+
+        <item>I admire people who choose to shine even after all the storms they  have been through.</item>
+
+        <item>The two most powerful warriors are patience and time</item>
+
+        <item>Your mind is a powerful thing, When you fill it with positive thoughts, Your life will start to change.</item>
+
+        <item>If you can\'t do great things, \nDo small things in a great way.</item>
+
+        <item>Don\'t limit your challenges, Challenge your limits.</item>
+
+        <item>Closure is a scam. Accept what they did and move on.</item>
+
+        <item>Success is no accident,\nIt is hard work, Perseverance, learning, studying, sacrifice and most of all, love of what you are doing or learning to do.</item>
+
+        <item>Don\'t compare yourself to others, Be like the sun and shine when it\'s your time.</item>
+
+        <item>Take criticism seriously, but not personally. If there is truth or merit in the criticism, try to learn from it. Otherwise, let it roll right off you.</item>
+
+        <item>Live as if you were to die tomorrow.\n Learn as if you were to live forever.</item>
+
+        <item>Do the difficult things while they are easy and do the great things while they are small. A journey of a thousand miles begins with a single step.</item>
+
+        <item>Stay away from those people who try to disparage your ambitions.\nSmall minds will always do that, but great minds will give you a feeling that you can become great too.</item>
+
+        <item>Distance yourself from people who bring out the person you\'re trying not to be anymore.</item>
+
+        <item>Success is not final, failure is not fatal\: It is the courage to continue that counts.</item>
+
+        <item>Develop success from failures. Discouragement and failure are two of the surest stepping stones to success.</item>
+
+        <item>Set your goals high, and don\'t stop till you get there.</item>
+
+        <item>When you cut off someone from your life, they will never tell people the full story, they will only tell them the part that makes you look bad and them innocent.</item>
+
+        <item>Life is like riding bicycle. To keep your balance, you must keep moving.</item>
+
+        <item>Whatever comes, Let it come.\nWhatever stays, Let it stay\nWhatever goes, Let it go.</item>
+
+        <item>If you believe you are right, but still people criticise you, hurt you, shout at you. Don\'t bother.\nJust remember that, \"In every game, only audience make noise, not players.\"\nBelieve in yourself, and do the best.</item>
+
+        <item>Smooth roads never make good driver,\nClear sky never make good pilot,\nA life without problems never make a good person.\nLife is a challenge, face it\!</item>
+
+        <item>Your life is a reflection of your decisions but you can only make decisions Based on the knowledge you remember.</item>
+
+        <item>If you don\'t love what you do, You will fail.</item>
+
+    </string-array>
+
+</resources>
