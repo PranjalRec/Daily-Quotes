@@ -3,10 +3,13 @@ package com.pranjal.myapplicatio;
 import android.Manifest;
 import android.content.ClipData;
 import android.content.ClipboardManager;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Environment;
@@ -31,7 +34,6 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
@@ -64,16 +66,10 @@ public class MainActivity extends AppCompatActivity {
 
         imageShare.setOnClickListener(v -> shareIt());
 
-
-        reminderNotification();
-
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
+//        reminderNotification();
 
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -95,15 +91,21 @@ public class MainActivity extends AppCompatActivity {
         }
         if (id == R.id.action_share_app) {
 
-            String url = "https://youtube.com";
-            Uri webpage = Uri.parse(url);
-            Intent intent_web= new Intent(Intent.ACTION_VIEW , webpage);
-            if(intent_web.resolveActivity(getPackageManager()) != null) {
-                startActivity(intent_web);
-            }
+            Intent intent = new Intent(android.content.Intent.ACTION_SEND);
+            String shareBody = "https://play.google.com/store/apps/details?id=com.pranjal.myapplicatio";
+            intent.setType("link");
+            intent.putExtra(android.content.Intent.EXTRA_SUBJECT,"Share in text format");
+            intent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
+            startActivity(Intent.createChooser(intent, "Share with"));
 
-            Toast.makeText(this, "insert app link here", Toast.LENGTH_SHORT).show();
-            return true;
+
+//            String url = "https://play.google.com/store/apps/details?id=com.pranjal.myapplicatio";
+//            Uri webpage = Uri.parse(url);
+//            Intent intent_web= new Intent(Intent.ACTION_VIEW , webpage);
+//            if(intent_web.resolveActivity(getPackageManager()) != null) {
+//                startActivity(intent_web);
+//            }
+//            return true;
         }
         if (id == R.id.action_about) {
             Intent intentAb = new Intent(this,AboutActivity.class);
@@ -128,19 +130,6 @@ public class MainActivity extends AppCompatActivity {
                 || super.onSupportNavigateUp();
     }
 
-
-
-//    public void copyToClipboard(View view){
-//        copyMethod();
-//    }
-//
-//        public void captureS(View view) {
-//            captureScreen();
-//        }
-//
-//    public void shareText(View view){
-//        shareIt();
-//    }
 
     public void copyMethod(){
         ClipboardManager clipboard = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
@@ -236,15 +225,14 @@ public class MainActivity extends AppCompatActivity {
         return text;
     }
 
-    public void reminderNotification()
-    {
-        Calendar c = Calendar.getInstance();
-        c.set(Calendar.HOUR_OF_DAY,8);
-        c.set(Calendar.MINUTE,0);
-        c.set(Calendar.SECOND,0);
-        NotificationS _notificationUtils = new NotificationS(this);
-        long _triggerReminder = c.getTimeInMillis();
 
-        _notificationUtils.setReminder(_triggerReminder);
+    @Override
+    public void onBackPressed() {
+        new AlertDialog.Builder(this).setIcon(android.R.drawable.ic_dialog_alert).setTitle("Exit").setMessage("Are you sure?").setPositiveButton("yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                MainActivity.super.onBackPressed();
+            }
+        }).setNegativeButton("No",null).show();
     }
 }

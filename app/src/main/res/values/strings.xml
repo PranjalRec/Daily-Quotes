@@ -19,15 +19,18 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="team_dsc_rec_bijnor">DSC REC BIJNOR</string>
     <string name="splash_image">splash image</string>
-    <string name="Name_mail">Pranjal Singh</string>
+    <string name="Name_mail">Pranjal Singh\nMember of DSC REC Bijnor\n\nContact me on\-</string>
 
 
    <string name="about">If you wake up in the morning and lie in bed, you have a goal to achieve. There is something stopping you from giving your best. Taking out the best version from you, You just need a little motivation for this Here we are. In this app, you get a new idea, a new thought every day, which will help you jump-start your day. The idea behind this app is to provide single but perfect thought every day by which you will stay inspired, focused, and calm. Always remember\n\n\"KNOWING IS NOT ENOUGH\nYOU MUST APPLY\nWILLING IS NOT ENOUGH\nYOU MUST DO\"\n\-Bruce Lee</string>
 
-    <string name="github">Github</string>
-    <string name="whatsapp">whatsapp</string>
-    <string name="hackerrank">hackerrank</string>
-    <string name="email">email</string>
+    <string name="github">GitHub</string>
+    <string name="whatsapp">Linkedin</string>
+
+<!--    whatsapp name is used for linkedin-->
+
+    <string name="hackerrank">Hackerrank</string>
+    <string name="email">Email</string>
 
     <string-array name="june">
 

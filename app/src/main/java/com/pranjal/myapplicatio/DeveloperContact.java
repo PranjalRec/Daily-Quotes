@@ -1,19 +1,26 @@
 package com.pranjal.myapplicatio;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 public class DeveloperContact extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_developer_contact);
+        ActionBar actionBar = getSupportActionBar();
+
+        actionBar.setDisplayHomeAsUpEnabled(true);
 
         ImageView hackerrank = findViewById(R.id.hackerrank);
         ImageView whatsapp = findViewById(R.id.whatsapp);
@@ -42,22 +49,20 @@ public class DeveloperContact extends AppCompatActivity {
         String url = "https://www.hackerrank.com/pranjalshivamsi1";
         Uri webpage = Uri.parse(url);
         Intent intent_hack= new Intent(Intent.ACTION_VIEW , webpage);
-        if(intent_hack.resolveActivity(getPackageManager()) != null) {
             startActivity(intent_hack);
-        }
     }
 
     void openGithub(){
         String url = "https://github.com/PranjalRec";
         Uri webpage = Uri.parse(url);
         Intent intent_git= new Intent(Intent.ACTION_VIEW , webpage);
-        if(intent_git.resolveActivity(getPackageManager()) != null) {
             startActivity(intent_git);
-        }
     }
 
+
     void openWhatsapp(){
-        String url = "https://api.whatsapp.com/send?phone="+"+917307391054";
+//        String url = "https://api.whatsapp.com/send?phone="+"+917307391054";
+        String url = "https://www.linkedin.com/in/pranjal-singh-2aa880201/";
         Intent intent_whatsapp = new Intent(Intent.ACTION_VIEW);
         intent_whatsapp.setData(Uri.parse(url));
         startActivity(intent_whatsapp);
@@ -70,5 +75,16 @@ public class DeveloperContact extends AppCompatActivity {
         intent_email.setType("message/rfc822");
 
         startActivity(Intent.createChooser(intent_email, "Choose an Email client :"));
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId())
+        {
+            case android.R.id.home:
+                this.finish();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
